@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:24:39 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln depistagecovid.gouv.fr
+Host: 164.131.212.140 ()	Status: Up
+Host: 164.131.212.140 ()	Ports: 80/open/tcp//http//web/, 113/closed/tcp//ident///, 443/closed/tcp//https///	Ignored State: filtered (997)
+# Nmap done at Sat Mar  9 14:27:18 2024 -- 1 IP address (1 host up) scanned in 159.34 seconds
