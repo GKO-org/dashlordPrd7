@@ -24,4 +24,43 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: http://policenationale.ddev.site
+  - url: https://moncompte.ppd.ants.gouv.fr
+  - url: https://moncompteformation.gouv.fr
+  - url: https://monmaster.gouv.fr
+  - url: https://monparcourshandicap.gouv.fr
+  - url: https://cnle.gouv.fr
+  - url: https://morbihan.gouv.fr
+  - url: https://moselle.gouv.fr
+  - url: https://nievre.gouv.fr
+  - url: https://nord.gouv.fr
+  - url: https://notre-environnement.gouv.fr
+  - url: https://nouvelle-caledonie.gouv.fr
+  - url: https://nouvelles-chances.gouv.fr
+  - url: https://numerique.gouv.fr
+  - url: https://observatoire-des-territoires.gouv.fr
+  - url: https://ofb.gouv.fr
+  - url: https://depistagecovid.gouv.fr
+  - url: https://oise.gouv.fr
+  - url: https://oned.gouv.fr
+  - url: https://onisep-preprod.fr
+  - url: https://onpe.gouv.fr
+  - url: https://orne.gouv.fr
+  - url: https://mesconseilscovid.sante.gouv.fr
+  - url: https://parcoursup.gouv.fr
+  - url: https://participation-citoyenne.gouv.fr
+  - url: https://pas-de-calais.gouv.fr
+  - url: https://peren.gouv.fr
+  - url: https://permisdeconduire.gouv.fr
+  - url: https://permis-de-conduire.gouv.fr
+  - url: https://piste.gouv.fr
+  - url: https://plus.transformation.gouv.fr
+  - url: https://plus.transformation.gouv.fr
+  - url: https://policenationale.ddev.site
+  - url: https://sidep.gouv.fr
+  - url: https://portailpro.gouv.fr
+  - url: https://pour-les-personnes-agees.gouv.fr
+  - url: https://ppd.ants.gouv.fr
+  - url: https://ppd.autoecole.ants.gouv.fr
+  - url: https://ppd.mairie.ants.gouv.fr
+  - url: https://ppd.passeport.ants.gouv.fr
+  - url: https://ppd.permisdeconduire.ants.gouv.fr
