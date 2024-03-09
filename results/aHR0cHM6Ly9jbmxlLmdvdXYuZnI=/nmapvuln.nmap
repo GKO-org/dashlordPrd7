@@ -1,0 +1,43 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:01:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cnle.gouv.fr
+Nmap scan report for cnle.gouv.fr (185.194.82.141)
+Host is up (0.079s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE    VERSION
+80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
+|_http-server-header: BigIP
+113/tcp closed ident
+443/tcp open   ssl/https
+|_http-trane-info: Problem with XML parsing of /evox/about
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     WWW-Authenticate: Basic realm=""
+|     Connection: close
+|     Content-Length: 9
+|     ERROR
+|   HTTPOptions: 
+|     HTTP/1.0 403 Forbidden
+|     Connection: close
+|     Content-Length: 9
+|     ERROR
+|   RTSPRequest, SIPOptions: 
+|     HTTP/1.0 400 Bad Request
+|     Connection: close
+|     Content-Length: 9
+|_    ERROR
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC6BBF%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authentic
+SF:ate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Length:\
+SF:x209\r\n\r\n401\x20ERROR")%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbid
+SF:den\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n403\x20ERROR
+SF:")%r(FourOhFourRequest,6E,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Auth
+SF:enticate:\x20Basic\x20realm=\"\"\r\nConnection:\x20close\r\nContent-Len
+SF:gth:\x209\r\n\r\n401\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x20400\x20B
+SF:ad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n40
+SF:0\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nCon
+SF:nection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:03:45 2024 -- 1 IP address (1 host up) scanned in 149.17 seconds
