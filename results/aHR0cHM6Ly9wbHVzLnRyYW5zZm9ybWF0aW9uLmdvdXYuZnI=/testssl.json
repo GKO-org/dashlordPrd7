@@ -1,0 +1,4056 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CHACHA20-POLY1305-OLD"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "97E92ECAB69CC41FC308EDE4A59EDC4A"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "6D1F29DF3E39104A8F8D0C5702C5F690879ED8B8"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "7EA262F41B092B8C4778327F330E177ED26B98D34C507534860BA28195F9A9E9"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIrTCCBpWgAwIBAgIRAJfpLsq2nMQfwwjt5KWe3EowDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTIzMDcxMjIyMDAwMFoXDTI0MDgxMDIxNTk1OVowgY4xCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzEwMC4GA1UECgwnTUlOSVNURVJFIERFIEwgRUNPTk9NSUUgRVQgREVTIEZJTkFOQ0VTMSgwJgYDVQQDDB93d3cucGx1cy50cmFuc2Zvcm1hdGlvbi5nb3V2LmZyMRMwEQYDVQQFEwpTMjc4NzcyMTgxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx2iUWYDUCiB4ZyQVkxWhpcifMuqB3Fx/7EhTWlVMsZwha093m3CFG1XFKqHwrJBmyRIcHT8xEr2M1DvzFPDmhcKRiqOEqeXxNnLcNjemutkNcz6uRHd4g1BF5RwBH5Dwl/Wy+LaW6Kdh2i+XWcYFO8MZBbvONAu7ybjW8VP3QcbRXam8IznTYLP2tETM5d4h3Q7khzxFHQJ/fZXdXC99/SA2VyUGtXhuaQNKzalIi9czfc1tdZrsqYOnY7Vww7jUUEamNnk98TsUEqV8dFR0kxNFk106W1Gf3zVB9HvzVEYbHcaYVpXh0xqi/8T3IMYfqSiyp+UisLz4lsVetgVGjQIDAQABo4IEFDCCBBAwgeQGCCsGAQUFBwEBBIHXMIHUMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEuZnIvc2VydmljZXNjYS5kZXIwOAYIKwYBBQUHMAKGLGh0dHA6Ly9hdXRvcml0ZS5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuZGVyMC4GCCsGAQUFBzABhiJodHRwOi8vc2VydmljZXNjYS5vY3NwLmNlcnRpZ25hLmZyMDAGCCsGAQUFBzABhiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15b3Rpcy5jb20wHwYDVR0jBBgwFoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwCQYDVR0TBAIwADBhBgNVHSAEWjBYMAgGBmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsGAQUFBwIBFi9odHRwczovL3d3dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlmaWNhdGlvbjBlBgNVHR8EXjBcMC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5jcmwwK6ApoCeGJWh0dHA6Ly9jcmwuY2VydGlnbmEuZnIvc2VydmljZXNjYS5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMGoGA1UdEQRjMGGCH3d3dy5wbHVzLnRyYW5zZm9ybWF0aW9uLmdvdXYuZnKCIXN0YXRzLnBsdXMudHJhbnNmb3JtYXRpb24uZ291di5mcoIbcGx1cy50cmFuc2Zvcm1hdGlvbi5nb3V2LmZyMB0GA1UdDgQWBBRDvC0/NHsGRctijQP+Sp1cm2/jyDCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHcA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGJT4o3nQAABAMASDBGAiEA81PFSsA5KrXjQQk7+g+51iZcz1de0/QjRv6/s2LJq3QCIQCGVBiCe2G7DMZJ+Q0sIiPY4dkDydpbm39ppNi3b631ggB2AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABiU+KOCQAAAQDAEcwRQIgTqnnIYauwI3HfteQr1dOJx/TxwoSEx9zNSROgO8siA4CIQDAiaCmLu/sFaJ+l2pAZZg50gHnd+H6xH03JyXuGS+rOAB2AFWB1MIWkDYBSuoLm1c8U/DA5Dh4cCUIFy+jqh0HE9MMAAABiU+KObIAAAQDAEcwRQIhAJSMuOaZby3BEfZ4h/m7D/YXIZOr6V3ZzUsqIzQA5W9qAiATxly3TgSRJvuiQQs1tiRLB/1rlnu5TGlqMLgv4KhmZTANBgkqhkiG9w0BAQsFAAOCAgEAhzQzzZnROhdYOBx+tMm3mPTSO1/2s5IQoCTR8RYcNU5YEpVTRdfnLQSJ5WPRKjaUtE1MhK+4yxvu/AZNGPtGx/M6WFhXXqodYN5ycIalzXNbdRgkO4yWThWXvVRAKFazOAE9bQrorZgb6rm8MJ6LvAVp5L9aWTdak/nT3rCRkmQOVKUeplxv0W79Fil4YkOwcIIla9A8z6f2N/eJBXZkIlo364S7WIALP4NkHgEKqk+xs+0HGo1+XjlAH5MFl4t5EJkqJHQUCEc3RHuKLT/Q3+PnrhkXLfnBujcTIiyY5W8OrxOn0neSC657Ru8HKqWCUYnfncmV/gou/u/2YZtGVikz9ELawVDWTF/7YhhyshRch6HsrkhSMabImKLcrJq3o2lCVeXNPGAwcCCi5qFGib5yT22dxh3JoXAsbS0CL3FlYhEnMpqwaXn++1yFRprNHCOE+Lr2MXyZK4UoDulRqSz2lPt6wH6Y+hCGqwmXCo18CUJ7Jx0KUE/J2xYdy3dnJ2Yf0pR23kae17BPxTOic2iMacWSZhcbI6wP4/F4FgE2uVsU0tMJqNDybLpTv9tu47frmZ8HAjt8me8/rWcHmdTC3VZ6c1MtTYeJb91+HO/9UfVw1vHIqPpMCTB/QACP1V3+CZGrPwNjzAnawR4a8ADO28LtUeKTfE9IhBNOBrk=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "www.plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "www.plus.transformation.gouv.fr stats.plus.transformation.gouv.fr plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "154 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-07-12 22:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2024-08-10 21:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "issue=letsencrypt.org"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-22 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "403 Forbidden ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1709996126"
+          }
+,         {
+              "id"           : "ipv4_in_header",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cwe"          : "CWE-212",
+              "finding"      : "Set-Cookie: __cf_bm=xqI7fnHb83SvKeYfzzEd0ZoSwrfDX7uA63M.SoudMCc-1709996126-1.0.1.1-gdzCvhXj6IcBEz2k5yFA.wXJ98zwJarye_P8bhvLeWo6W2YqUo9lg3x08ANhq.Nx6oIIdDhozW5AJQ6mVaBpoA; path=/; expires=Sat, 09-Mar-24 15:25:26 GMT; domain=.plus.transformation.gouv.fr; HttpOnly; Secure; SameSite=None (check if it's your IP address or e.g. a cluster IP)"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cloudflare"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "cookie_secure",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as HttpOnly (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Expect-CT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "max-age=86400, enforce"
+          }
+,         {
+              "id"           : "Permissions-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "same-origin"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7EA262F41B092B8C4778327F330E177ED26B98D34C507534860BA28195F9A9E9"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305-OLD"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "81"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.98",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CHACHA20-POLY1305-OLD"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "97E92ECAB69CC41FC308EDE4A59EDC4A"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "6D1F29DF3E39104A8F8D0C5702C5F690879ED8B8"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "7EA262F41B092B8C4778327F330E177ED26B98D34C507534860BA28195F9A9E9"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "www.plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "www.plus.transformation.gouv.fr stats.plus.transformation.gouv.fr plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "154 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-07-12 22:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2024-08-10 21:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "issue=letsencrypt.org"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-22 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "403 Forbidden ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1709996296"
+          }
+,         {
+              "id"           : "ipv4_in_header",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cwe"          : "CWE-212",
+              "finding"      : "Set-Cookie: __cf_bm=_UJh7GrnMhIQNW_GLN4LYt3yvxGKNgjIfn5o6YxxPVQ-1709996296-1.0.1.1-ooGtX4U67odPEyy43ry3goFvCezPjyEgR.KJ362YEDAssEO.tjxqwjSjobl1pf0DmNgrMZ_6DeAcd15Sba.NkA; path=/; expires=Sat, 09-Mar-24 15:28:16 GMT; domain=.plus.transformation.gouv.fr; HttpOnly; Secure; SameSite=None (check if it's your IP address or e.g. a cluster IP)"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cloudflare"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "cookie_secure",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as HttpOnly (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Expect-CT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "max-age=86400, enforce"
+          }
+,         {
+              "id"           : "Permissions-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "same-origin"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7EA262F41B092B8C4778327F330E177ED26B98D34C507534860BA28195F9A9E9"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305-OLD"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "81"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.96",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CHACHA20-POLY1305-OLD"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "97E92ECAB69CC41FC308EDE4A59EDC4A"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "6D1F29DF3E39104A8F8D0C5702C5F690879ED8B8"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "7EA262F41B092B8C4778327F330E177ED26B98D34C507534860BA28195F9A9E9"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "www.plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "www.plus.transformation.gouv.fr stats.plus.transformation.gouv.fr plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "154 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-07-12 22:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2024-08-10 21:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "issue=letsencrypt.org"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-22 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "403 Forbidden ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1709996466"
+          }
+,         {
+              "id"           : "ipv4_in_header",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cwe"          : "CWE-212",
+              "finding"      : "Set-Cookie: __cf_bm=M4pRbvHXIgevv7yEKM6l811Irt6ObmIpV7OZGRXMA0I-1709996466-1.0.1.1-Q9lA_jknhNlAPk_ji8sVNSSA1HhAVaMqou4aDQUyoMB7Z55mgnRuxf6a3lwigeUlAlurFio0kKkyXDM3S11p_g; path=/; expires=Sat, 09-Mar-24 15:31:06 GMT; domain=.plus.transformation.gouv.fr; HttpOnly; Secure; SameSite=None (check if it's your IP address or e.g. a cluster IP)"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cloudflare"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "cookie_secure",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as HttpOnly (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Expect-CT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "max-age=86400, enforce"
+          }
+,         {
+              "id"           : "Permissions-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "same-origin"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7EA262F41B092B8C4778327F330E177ED26B98D34C507534860BA28195F9A9E9"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305-OLD"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "81"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CHACHA20-POLY1305-OLD"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "97E92ECAB69CC41FC308EDE4A59EDC4A"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "6D1F29DF3E39104A8F8D0C5702C5F690879ED8B8"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "7EA262F41B092B8C4778327F330E177ED26B98D34C507534860BA28195F9A9E9"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "www.plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "www.plus.transformation.gouv.fr stats.plus.transformation.gouv.fr plus.transformation.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "154 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-07-12 22:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2024-08-10 21:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "issue=letsencrypt.org"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-22 11:33"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "403 Forbidden ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1709996635"
+          }
+,         {
+              "id"           : "ipv4_in_header",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cwe"          : "CWE-212",
+              "finding"      : "Set-Cookie: __cf_bm=_XnH0DO.8LvEV_8Qmngc0FkI_hNv8M7oR_ynMVwlINc-1709996635-1.0.1.1-Taja4zOdZrcLJgIZFWvuzDgbywNs31ff7UExXsZdS4uYdA0s2304j7hEl39T1uWT7UQRPXgGo77_5kDEH.WbWQ; path=/; expires=Sat, 09-Mar-24 15:33:55 GMT; domain=.plus.transformation.gouv.fr; HttpOnly; Secure; SameSite=None (check if it's your IP address or e.g. a cluster IP)"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cloudflare"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "cookie_secure",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as HttpOnly (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Expect-CT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "max-age=86400, enforce"
+          }
+,         {
+              "id"           : "Permissions-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "same-origin"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "plus.transformation.gouv.fr/141.101.90.99",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
