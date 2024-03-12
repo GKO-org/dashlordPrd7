@@ -339,7 +339,7 @@
               "ip"           : "adoption.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "351 >= 60 days"
+              "finding"      : "350 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "adoption.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710174884"
+              "finding"      : "1710242502"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "adoption.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "8442 seconds"
+              "finding"      : "175 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -579,7 +579,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: HITX-Cache-Hits: 7"
+              "finding"      : "X-Cache: HITX-Cache-Hits: 6"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1085,6 +1085,6 @@
               "ip"           : "adoption.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "117"
+              "finding"      : "77"
           }
 ]
