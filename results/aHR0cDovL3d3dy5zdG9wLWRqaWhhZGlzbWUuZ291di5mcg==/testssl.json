@@ -339,7 +339,7 @@
               "ip"           : "www.stop-djihadisme.gouv.fr/77.159.252.143",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "61 >= 30 days"
+              "finding"      : "60 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1049,6 +1049,6 @@
               "ip"           : "www.stop-djihadisme.gouv.fr/77.159.252.143",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "91"
+              "finding"      : "98"
           }
 ]

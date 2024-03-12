@@ -46,7 +46,7 @@
 "cert_trust","www.stop-djihadisme.gouv.fr/77.159.252.143","443","OK","Ok via SAN (SNI mandatory)","",""
 "cert_chain_of_trust","www.stop-djihadisme.gouv.fr/77.159.252.143","443","OK","passed.","",""
 "cert_certificatePolicies_EV","www.stop-djihadisme.gouv.fr/77.159.252.143","443","INFO","no","",""
-"cert_expirationStatus","www.stop-djihadisme.gouv.fr/77.159.252.143","443","OK","61 >= 30 days","",""
+"cert_expirationStatus","www.stop-djihadisme.gouv.fr/77.159.252.143","443","OK","60 >= 30 days","",""
 "cert_notBefore","www.stop-djihadisme.gouv.fr/77.159.252.143","443","INFO","2024-02-12 07:07","",""
 "cert_notAfter","www.stop-djihadisme.gouv.fr/77.159.252.143","443","OK","2024-05-12 07:07","",""
 "cert_extlifeSpan","www.stop-djihadisme.gouv.fr/77.159.252.143","443","OK","certificate has no extended life time according to browser forum","",""
