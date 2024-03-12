@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 11 18:56:02 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln mesdroitssociaux.gouv.fr
+# Nmap 7.92 scan initiated Tue Mar 12 11:25:52 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln mesdroitssociaux.gouv.fr
 Host: 81.80.42.167 (ouvrier-paradis.rain.fr)	Status: Up
 Host: 81.80.42.167 (ouvrier-paradis.rain.fr)	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///	Ignored State: filtered (998)
-# Nmap done at Mon Mar 11 18:58:01 2024 -- 1 IP address (1 host up) scanned in 119.47 seconds
+# Nmap done at Tue Mar 12 11:27:54 2024 -- 1 IP address (1 host up) scanned in 122.30 seconds
