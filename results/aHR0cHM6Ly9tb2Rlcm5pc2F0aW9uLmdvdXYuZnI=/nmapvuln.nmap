@@ -1,4 +1,1 @@
-# Nmap 7.92 scan initiated Mon Mar 11 19:06:06 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln modernisation.gouv.fr
-Failed to resolve "modernisation.gouv.fr".
-WARNING: No targets were specified, so 0 hosts scanned.
-# Nmap done at Mon Mar 11 19:06:11 2024 -- 0 IP addresses (0 hosts up) scanned in 5.27 seconds
+# Nmap 7.92 scan initiated Tue Mar 12 11:32:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln modernisation.gouv.fr
