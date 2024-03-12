@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 11 19:08:52 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
+# Nmap 7.92 scan initiated Tue Mar 12 11:35:29 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
 Nmap scan report for monmaster.gouv.fr (185.75.143.22)
 Host is up (0.084s latency).
 rDNS record for 185.75.143.22: MEN-MUTU-PROXY01.dedie.ate.info
@@ -8,4 +8,4 @@ PORT    STATE SERVICE  VERSION
 443/tcp open  ssl/http nginx
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Mar 11 19:09:20 2024 -- 1 IP address (1 host up) scanned in 27.34 seconds
+# Nmap done at Tue Mar 12 11:35:55 2024 -- 1 IP address (1 host up) scanned in 26.47 seconds
