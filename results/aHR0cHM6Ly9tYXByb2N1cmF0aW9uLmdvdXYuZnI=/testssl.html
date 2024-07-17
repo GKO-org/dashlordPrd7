@@ -21,11 +21,11 @@
 ###########################################################</span>
 
  Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~183 ciphers]
- on fv-az841-395:/home/testssl/bin/openssl.Linux.x86_64
+ on fv-az1144-364:/home/testssl/bin/openssl.Linux.x86_64
  (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
 
 
-<span style="color:white;background-color:black;"> Start 2024-03-12 11:06:57                --&gt;&gt; 45.60.74.33:443 (maprocuration.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-07-17 14:40:08                --&gt;&gt; 45.60.74.33:443 (maprocuration.gouv.fr) &lt;&lt;--</span>
 
  rDNS (45.60.74.33):     --
  Service detected:       HTTP
@@ -98,18 +98,17 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-<span style="font-weight:bold;"> Serial                       </span>129884B66AEAFAC6F36A0091985585D3 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 87D777BF99865527696BFF44D901F638A69A823D
-                              SHA256 9453A54EF8EF600CEBA9276D151A42E7B69E748DAA95CD7B59F114C37EBCF75B
+<span style="font-weight:bold;"> Serial                       </span>74634BE6C50A18656C4D8452B2CF2B14 (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 17E00781A8CA03BCC8F5F242DD5F57617AAA359F
+                              SHA256 0D1D1A38F72034D93B6A54F4459DEDC4BAD0EDB125CD6E991F24851E7299F222
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>www.maprocuration.gouv.fr </i> (CN in response to request w/o SNI: <i>imperva.com </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>mairie.maprocuration.gouv.fr
-                              www.maprocuration.gouv.fr
-                              fsi.maprocuration.gouv.fr maprocuration.gouv.fr </i>
+                              maprocuration.gouv.fr www.maprocuration.gouv.fr
+                              fsi.maprocuration.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (SNI mandatory)
-<span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#e52207;font-weight:bold;">NOT ok</span><span style="color:#e52207;font-weight:bold;">:</span><span style="color:#e52207;"> Apple </span>(chain incomplete)<span style="color:#e52207;"> Java </span>(chain incomplete)
-<span style="color:#008817;">OK: Mozilla Microsoft Linux </span>
+<span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">190 &gt;= 60 days</span> (2023-09-19 22:00 --&gt; 2024-09-18 21:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">62 &gt;= 60 days</span> (2024-03-22 23:00 --&gt; 2024-09-17 21:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.certigna.fr/servicesca.crl
                               http://crl.dhimyotis.com/servicesca.crl
@@ -121,7 +120,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
 <span style="font-weight:bold;"> Certificates provided</span>        2
 <span style="font-weight:bold;"> Issuer                       </span><i>Certigna Services CA</i> (<i>DHIMYOTIS</i> from <i>FR</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2033-06-03 11:37). <i>Certigna Services CA</i> &lt;-- <i>Certigna Root CA</i>
+<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2025-11-22 11:33). <i>Certigna Services CA</i> &lt;-- <i>Certigna</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
@@ -154,7 +153,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9453A54EF8EF600CEBA9276D151A42E7B69E748DAA95CD7B59F114C37EBCF75B" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9453A54EF8EF600CEBA9276D151A42E7B69E748DAA95CD7B59F114C37EBCF75B</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0D1D1A38F72034D93B6A54F4459DEDC4BAD0EDB125CD6E991F24851E7299F222" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0D1D1A38F72034D93B6A54F4459DEDC4BAD0EDB125CD6E991F24851E7299F222</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
@@ -207,15 +206,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="font-weight:bold;"> Rating specs</span> (not complete)  SSL Labs&apos;s &apos;SSL Server Rating Guide&apos; (version 2009q from 2020-01-30)
 <span style="font-weight:bold;"> Specification documentation  </span><a href="https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide" style="color:black;text-decoration:none;">https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide</a>
-<span style="font-weight:bold;"> Protocol Support</span> (weighted)  0 (0)
-<span style="font-weight:bold;"> Key Exchange</span>     (weighted)  0 (0)
-<span style="font-weight:bold;"> Cipher Strength</span>  (weighted)  0 (0)
-<span style="font-weight:bold;"> Final Score                  </span>0
-<span style="font-weight:bold;"> Overall Grade                </span><span style="color:#e52207;font-weight:bold;">T</span>
-<span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to T. Issues with chain of trust (chain incomplete)
-                              Grade capped to A. HSTS is not offered
+<span style="font-weight:bold;"> Protocol Support </span>(weighted)  100 (30)
+<span style="font-weight:bold;"> Key Exchange </span>    (weighted)  90 (27)
+<span style="font-weight:bold;"> Cipher Strength </span> (weighted)  60 (24)
+<span style="font-weight:bold;"> Final Score                  </span>81
+<span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
+<span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2024-03-12 11:08:36 [ 101s] --&gt;&gt; 45.60.74.33:443 (maprocuration.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-07-17 14:41:06 [  60s] --&gt;&gt; 45.60.74.33:443 (maprocuration.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
