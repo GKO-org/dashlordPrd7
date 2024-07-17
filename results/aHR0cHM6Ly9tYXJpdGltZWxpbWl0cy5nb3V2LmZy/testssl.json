@@ -297,7 +297,7 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "251613C797C6B28D6F4AAED9C04EC920"
+              "finding"      : "8F92274A4BFFEBF99CCDDB11ACD9D1AD"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,42 +311,42 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5DFA18797D5C32CB71EFC4B7C925A4EE80906710"
+              "finding"      : "16564D0C567456D95B7D2E4225A81E7BD9225DEA"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "450B60C0F39CEB76DA89E3B29AACDCF4642C645606C1A6F53A10C3C1466D94A8"
+              "finding"      : "167099915B0B9DA0E8B42D5A178DF0780F6AE7DD013F3D37D36DE267573C8510"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "www.limitesmaritimes.gouv.fr"
+              "finding"      : "limitesmaritimes.gouv.fr"
           }
 ,         {
               "id"           : "cert_commonName_wo_SNI",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.limitesmaritimes.gouv.fr"
+              "finding"      : "limitesmaritimes.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.limitesmaritimes.gouv.fr limitesmaritimes.gouv.fr maritimelimits.gouv.fr www.maritimelimits.gouv.fr"
+              "finding"      : "limitesmaritimes.gouv.fr maritimelimits.gouv.fr www.maritimelimits.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -374,21 +374,21 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "85 >= 60 days"
+              "finding"      : "317 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-06-06 00:00"
+              "finding"      : "2024-05-30 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-06-05 23:59"
+              "finding"      : "2025-05-30 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -570,14 +570,14 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-8975748 seconds from localtime"
+              "finding"      : "-5300905 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1701265929"
+              "finding"      : "1715926462"
           }
 ,         {
               "id"           : "HSTS",
@@ -627,13 +627,6 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "X-UA-Compatible",
-              "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "IE=edge"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -771,7 +764,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=450B60C0F39CEB76DA89E3B29AACDCF4642C645606C1A6F53A10C3C1466D94A8"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=167099915B0B9DA0E8B42D5A178DF0780F6AE7DD013F3D37D36DE267573C8510"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1154,6 +1147,6 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "110"
+              "finding"      : "105"
           }
 ]
