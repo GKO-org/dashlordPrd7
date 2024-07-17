@@ -262,7 +262,7 @@
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F132D89CC2C2E7C058F63991A5722204"
+              "finding"      : "2DB4B3E4042FCE70BD2569637B43A4CD"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1514561A7D9F4C9C0FEA40DEDAE54C79B1B197E4"
+              "finding"      : "5B1C1F241E1D91282EECA9A22641A1232E586F5D"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1607A186B3836AB6595A90E63DAEA8D21A150AA639146B32CB91AAFFA33EC0AF"
+              "finding"      : "62DB8F6141758723FBF0A4B84FEE0BF55DA6BA749D4E707DFAE31FE5CB987DFD"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "nievre.gouv.fr www.nievre.gouv.fr"
+              "finding"      : "www.nievre.gouv.fr nievre.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (38)"
+              "severity"     : "OK",
+              "finding"      : "239 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-03-21 23:00"
+              "finding"      : "2024-03-13 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-04-19 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-03-13 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -493,14 +493,14 @@
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710244263"
+              "finding"      : "1721230188"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1607A186B3836AB6595A90E63DAEA8D21A150AA639146B32CB91AAFFA33EC0AF"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=62DB8F6141758723FBF0A4B84FEE0BF55DA6BA749D4E707DFAE31FE5CB987DFD"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "nievre.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "96"
+              "finding"      : "54"
           }
 ]
