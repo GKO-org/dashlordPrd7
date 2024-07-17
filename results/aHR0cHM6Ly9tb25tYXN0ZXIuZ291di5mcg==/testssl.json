@@ -339,7 +339,7 @@
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "snee.enseignementsup-recherche.gouv.fr"
+              "finding"      : "assistanceteleservices.education.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -374,7 +374,7 @@
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "288 >= 60 days"
+              "finding"      : "161 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,7 +584,7 @@
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710243298"
+              "finding"      : "1721229161"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1161,6 +1161,6 @@
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "94"
           }
 ]
