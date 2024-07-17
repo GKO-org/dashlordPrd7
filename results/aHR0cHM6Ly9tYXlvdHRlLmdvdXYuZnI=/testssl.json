@@ -262,7 +262,7 @@
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59210A45E33A71E5CC31C01452C03F08"
+              "finding"      : "EC44E802AD545973DD792F6172AB199B"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "35A46EB0F488B5FB4A8F093BC63527A9159FCD9D"
+              "finding"      : "A5C279D07A10750F9C135CFE6835C9D4E3597B15"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "BAF14F2480484CBA43CD861CA021FAC2F58143EDBE49F7F09479ADFD8B9632C5"
+              "finding"      : "09634F65198AE785D6A4A6A3670A20075B372DFFFD989ECD82B408B7F0228572"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "240 >= 60 days"
+              "finding"      : "112 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-09 22:00"
+              "finding"      : "2024-03-21 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-11-07 22:59"
+              "finding"      : "2024-11-06 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,7 +500,7 @@
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710242336"
+              "finding"      : "1721228031"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BAF14F2480484CBA43CD861CA021FAC2F58143EDBE49F7F09479ADFD8B9632C5"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=09634F65198AE785D6A4A6A3670A20075B372DFFFD989ECD82B408B7F0228572"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "mayotte.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "57"
           }
 ]
