@@ -339,7 +339,7 @@
               "ip"           : "nord.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "315 >= 60 days"
+              "finding"      : "287 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "nord.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "nord.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721230290"
+              "finding"      : "1723642253"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "nord.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "97"
           }
 ]
