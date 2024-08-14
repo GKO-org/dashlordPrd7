@@ -56,13 +56,6 @@
               "finding"      : "not offered + downgraded to weaker protocol"
           }
 ,         {
-              "id"           : "ALPN_HTTP2",
-              "ip"           : "monmaster.gouv.fr/185.75.143.22",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "h2"
-          }
-,         {
               "id"           : "ALPN",
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
@@ -374,7 +367,7 @@
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "161 >= 60 days"
+              "finding"      : "133 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -584,7 +577,7 @@
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721229161"
+              "finding"      : "1723640941"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1161,6 +1154,6 @@
               "ip"           : "monmaster.gouv.fr/185.75.143.22",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "94"
+              "finding"      : "54"
           }
 ]
