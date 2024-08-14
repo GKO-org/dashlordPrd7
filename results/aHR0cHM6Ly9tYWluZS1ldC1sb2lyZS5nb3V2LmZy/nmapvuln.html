@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maine-et-loire.gouv.fr</pre>
-<p class="lead">Wed Jul 17 14:35:19 2024 – Wed Jul 17 14:36:10 2024<br>1 hosts scanned.
+<p class="lead">Wed Aug 14 12:35:43 2024 – Wed Aug 14 12:36:33 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -126,7 +126,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 17 Jul 2024 14:35:38 GMT
+    date: Wed, 14 Aug 2024 12:36:02 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -136,14 +136,28 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  GetRequest, HTTPOptions: 
+  GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 17 Jul 2024 14:35:37 GMT
+    date: Wed, 14 Aug 2024 12:36:01 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 403 Forbidden
+    date: Wed, 14 Aug 2024 12:36:02 GMT
+    server: Apache
+    cache-control: no-cache
+    content-type: text/html
+    age: 0
+    x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
@@ -157,7 +171,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Wed, 17 Jul 2024 14:35:37 GMT
+    date: Wed, 14 Aug 2024 12:36:02 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -185,9 +199,9 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, HTTPOptions: 
+  FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 17 Jul 2024 14:35:44 GMT
+    date: Wed, 14 Aug 2024 12:36:09 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -201,7 +215,21 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 17 Jul 2024 14:35:43 GMT
+    date: Wed, 14 Aug 2024 12:36:08 GMT
+    server: Apache
+    cache-control: no-cache
+    content-type: text/html
+    age: 0
+    x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 403 Forbidden
+    date: Wed, 14 Aug 2024 12:36:08 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -213,7 +241,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Wed, 17 Jul 2024 14:35:51 GMT
+    date: Wed, 14 Aug 2024 12:36:16 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
