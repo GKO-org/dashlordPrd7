@@ -346,7 +346,7 @@
               "ip"           : "mer.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "364 >= 60 days"
+              "finding"      : "336 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,21 +542,21 @@
               "ip"           : "mer.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+4541 seconds from localtime"
+              "finding"      : "+4476 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "mer.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721228325"
+              "finding"      : "1723640152"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "mer.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4543 seconds"
+              "finding"      : "4478 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1154,6 +1154,6 @@
               "ip"           : "mer.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "135"
+              "finding"      : "72"
           }
 ]
