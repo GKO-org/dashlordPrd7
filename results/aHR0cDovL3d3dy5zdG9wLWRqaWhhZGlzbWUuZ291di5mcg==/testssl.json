@@ -367,7 +367,7 @@
               "ip"           : "www.stop-djihadisme.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "112 >= 60 days"
+              "finding"      : "84 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -612,7 +612,7 @@
               "ip"           : "www.stop-djihadisme.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721228124"
+              "finding"      : "1723640010"
           }
 ,         {
               "id"           : "HSTS",
@@ -1175,6 +1175,6 @@
               "ip"           : "www.stop-djihadisme.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "79"
+              "finding"      : "54"
           }
 ]
