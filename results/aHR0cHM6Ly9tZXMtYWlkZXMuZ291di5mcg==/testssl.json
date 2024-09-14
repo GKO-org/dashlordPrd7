@@ -199,7 +199,7 @@
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -269,7 +269,7 @@
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "042BFA04C5D495E1472E9B3B3D4A7E159677"
+              "finding"      : "04806C4AFF2706F90040EC5265B2B1C56B7B"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6E9D79DC95EA9EC858D16192825DF8F4C22D7BFB"
+              "finding"      : "AE14DE7428ACED1FDB4133ACBAA8BA9029554156"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "22E9CAADE576D6B4F7E35A97EC0203D42FE85F17F3D63CF8F97814FBFA1B409C"
+              "finding"      : "907C96486EC782C16142DBDAD9174110687F031F0380CB4596C33907B341CFBF"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE8TCCA9mgAwIBAgISBCv6BMXUleFHLps7PUp+FZZ3MA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQwNjIyMDgwOTA3WhcNMjQwOTIwMDgwOTA2WjAcMRowGAYDVQQDExFtZXMtYWlkZXMuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOXbcejWoR3oGiU6dW5z5lwaDpkPeoLgegWRDpeUorAoq1wfge6jyLCzWkQpG86TDE+OcSw0jeTNWE6ztzwzLcVKZqpLWuSwHSB7SgoIYoWqWKIwLacHyRrsjwj/zcMGWYUaVejX6+3dvU2Lq/ekGxZ1b0J/h8sqmVIZrnh+FpILUTR0GVFW2NZfFhL4SS2lrLNZFtDyKpLC4ubFuykOGPJ888TmalCSGjmJ1z1s+8NOBV1rBACVhp1injQzI4ngDDro2oRDXQPxHBPn2CGcFz74iM1gSMmBz57txcuuUC8ITSkeDAQ/Hp3vi3a46qImYYTgvI3opySjY8HQsd2ZFNcCAwEAAaOCAhQwggIQMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU9z8QM9XTu+XF5fG7FVsIL+3t8MwwHwYDVR0jBBgwFoAUu7zDR6XkvKnGw6RyDBCNojXhyOgwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjEwLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjEwLmkubGVuY3Iub3JnLzAcBgNVHREEFTATghFtZXMtYWlkZXMuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AD8XS0/XIkdYlB1lHIS+DRLtkDd/H4Vq68G/KIXs+GRuAAABkD8038AAAAQDAEcwRQIgGP4lJHP2w015PrJXH95PqIeMI+PcT9r2M1N4+MrVBa4CIQDrjVictHjqM0BichKcN1DrrS9bAythjP86dTILexdx3gB1ABmYEHEJ8NZSLjCA0p4/ZLuDbijM+Q9Sju7fzko/FrTKAAABkD8038oAAAQDAEYwRAIgXNhyMHpo36p3rua7iJxDQVhj8qs7F/hSOG8nOWEnGWECIF/Du+cg22bIj1IyA9GWQD7DtrTELpnLA535OG4n2QQhMA0GCSqGSIb3DQEBCwUAA4IBAQCsOUaN55/cLhBtQp+x+BpApD9u/MEV1EP4IwsXl9BpLRfJVC+dUjR+6RtpRP4gF6z1eLE4Juq6q+/WYte7rzyS27y2dtCqAQUcOahjA42Qck7nUR/7668ysyDApe2m7KTHwwq9DlQaw1IXHM6dtYUXJwS1BoD9r1fQyXvTfae6M6xFUdm4UQkvPtVlD5JuiEepwiUDmsXM9A3NjlGScHcH05gZ9GmK81+9X0MS+DB4OyWWYEWPeOQm98fEv+h8saifnNm6SvX3StW1qpFbct/1xKQXRZE8yL7fkFQwzuc1H5uQ2PAgKJAEwosv9Ieh0xask/VKJqlbAeAO/1lqjSXE\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE8jCCA9qgAwIBAgISBIBsSv8nBvkAQOxSZbKxxWt7MA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQwODIxMDgxMTQxWhcNMjQxMTE5MDgxMTQwWjAcMRowGAYDVQQDExFtZXMtYWlkZXMuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMKvuZ+qa736dlEtl5F0eUug2GUivTsjdnc1foiw1ITVfKAsMUxuFmzaqr2J6d1EuD6ZA1YT1b1dRfxw9NX1OkeJt+GL47HbOCK4R9T3mvGGahMvn8dnGRDVToPyfVst6PKZ2amV5c7wof0nW0RgyYY64RLMgygzpgL5oGe16jBodxiBXtXvhOvBb6Bzb5Sm1Yh9iIUmVOta/L5wAWl5M4KsY/Qnvp1SbGwf1uyXjB3nupo9RoOyhq/g/Nz0DT9jmkQ5ZZY4nhbmGRO51jnQSOCsY8fARpjGquYVlt5+NOrJOg1NTXmX/QKfXpDXIUf0lIL2oCfMVGzgs2TM4eoUBdsCAwEAAaOCAhUwggIRMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUscPt/vnjCJ8aMI65GXmd3z7XQtcwHwYDVR0jBBgwFoAUu7zDR6XkvKnGw6RyDBCNojXhyOgwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjEwLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjEwLmkubGVuY3Iub3JnLzAcBgNVHREEFTATghFtZXMtYWlkZXMuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB3AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABkXQzaG4AAAQDAEgwRgIhALAmlgQNrlWImYDnw66eovrD5+U0Np95HGz8JxUMqTa8AiEAohZrSXOkiebhVuyh1zu7gtzNQRoc3eR5IAmbhT88kdIAdQDf4VbrqgWvtZwPhnGNqMAyTq5W2W6n9aVqAdHBO75SXAAAAZF0M2kpAAAEAwBGMEQCIBCdwbc6lFdKwnszfIPrJaw8eNg6KJHcrpDGY5L5m5r3AiBNOXbotw43/f3oe2ZgIKv/6DrmsR1yKqeuWOaYCQ2cHTANBgkqhkiG9w0BAQsFAAOCAQEAQLz2LIJf2qqQKJUOdxCGmLu1VNNDly6fuGiIp3TqDRdhHnZRFpjMDQdfPDgkjUQDvcvmFS4SdOMX7YF/I2XOpcJhfG0HQ1H2qAMdPstdcirzHyDO9QEXw0n0ds1dF7vWhlZloEn1fSjojeweH8ptGGv5F4L0bqjcWZgqXHKPwVyY4JFIdwcTEKA8y4R0E+wvlnEe8tVjCXLlHqCaKOkmcVCnKJIW5WVYA8fdNB3rX9xPCqlHRSUcG02Yp3kuzjg6joR+WMTEH/UWi3DeqCcZ4MsyEft2ipWv//Y/GWS3/xx+WOCUlqw1dosUHDPHkqKpZ1xExDta7dgmoVQ2Yogb9w==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "finding"      : "65 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-06-22 08:09"
+              "finding"      : "2024-08-21 08:11"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-09-20 08:09"
+              "finding"      : "2024-11-19 08:11"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -507,7 +507,7 @@
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723640215"
+              "finding"      : "1726319025"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -694,7 +694,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=22E9CAADE576D6B4F7E35A97EC0203D42FE85F17F3D63CF8F97814FBFA1B409C"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=907C96486EC782C16142DBDAD9174110687F031F0380CB4596C33907B341CFBF"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1070,6 +1070,6 @@
               "ip"           : "mes-aides.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99"
+              "finding"      : "55"
           }
 ]
