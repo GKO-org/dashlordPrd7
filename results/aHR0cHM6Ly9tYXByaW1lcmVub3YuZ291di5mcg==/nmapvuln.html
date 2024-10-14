@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maprimerenov.gouv.fr</pre>
-<p class="lead">Sat Sep 14 12:41:25 2024 – Sat Sep 14 12:42:19 2024<br>1 hosts scanned.
+<p class="lead">Mon Oct 14 12:43:00 2024 – Mon Oct 14 12:43:55 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -119,7 +119,7 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, SSLSessionReq, TerminalServerCookie: 
+  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, SSLSessionReq, X11Probe: 
     HTTP/1.0 400 Bad request
     cache-control: no-cache
     content-type: text/html
@@ -137,11 +137,7 @@
     content-length: 0
     location: https:///
     cache-control: no-cache
-    connection: close
-  X11Probe: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html</pre>
+    connection: close</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
@@ -153,13 +149,11 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 404 Not Found
-    date: Sat, 14 Sep 2024 12:42:03 GMT
+    date: Mon, 14 Oct 2024 12:43:38 GMT
     server: Apache
     content-length: 196
     content-type: text/html; charset=iso-8859-1
@@ -178,14 +172,14 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 200 OK
-    date: Sat, 14 Sep 2024 12:42:02 GMT
+    date: Mon, 14 Oct 2024 12:43:37 GMT
     server: Apache
     upgrade: h2,h2c
     connection: Upgrade
-    last-modified: Thu, 06 Jun 2024 12:30:10 GMT
-    etag: "126de-61a37d80846cb"
+    last-modified: Thu, 12 Sep 2024 12:19:16 GMT
+    etag: "150fc-621eb1d832464"
     accept-ranges: bytes
-    content-length: 75486
+    content-length: 86268
     vary: Accept-Encoding
     content-type: text/html
     strict-transport-security: max-age=16000000;includeSubDomains;
@@ -201,14 +195,14 @@
     &lt;title&gt;Anah&lt;/title&gt;
     &lt;link rel="icon" type="image/svg" href="https://agrement.anah.gouv.fr/assets/logos/logo-mar.svg"&gt;
     &lt;style&gt;&lt;/style&gt;
-    &lt;link rel="stylesheet" href="assets/styles.b435e6387cdd17c0.css" media="all" onloa
+    &lt;link rel="stylesheet" href="assets/styles.b435e6387cdd17c0.css" media="all" onload="this.
   HTTPOptions: 
     HTTP/1.1 200 OK
-    date: Sat, 14 Sep 2024 12:42:02 GMT
+    date: Mon, 14 Oct 2024 12:43:37 GMT
     server: Apache
     upgrade: h2,h2c
     connection: Upgrade
-    allow: OPTIONS,HEAD,GET,POST
+    allow: GET,POST,OPTIONS,HEAD
     content-length: 0
     content-type: text/html
     strict-transport-security: max-age=16000000;includeSubDomains;
@@ -216,6 +210,8 @@
     x-content-type-options: nosniff
     referrer-policy: no-referrer-when-downgrade
     x-xss-protection: 1 ;mode=block</pre>
+<h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 </tbody>
 </table></div>
