@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Sep 14 12:37:28 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maisondelautisme.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 12:39:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maisondelautisme.gouv.fr
 Host: 94.23.123.122 (ip122.ip-94-23-123.eu)	Status: Up
 Host: 94.23.123.122 (ip122.ip-94-23-123.eu)	Ports: 22/open/tcp//ssh//(protocol 2.0)/, 80/open/tcp//http-proxy//(bad gateway)/, 443/open/tcp//ssl|http-proxy//(bad gateway)/	Ignored State: filtered (997)
-# Nmap done at Sat Sep 14 12:37:54 2024 -- 1 IP address (1 host up) scanned in 25.73 seconds
+# Nmap done at Mon Oct 14 12:40:10 2024 -- 1 IP address (1 host up) scanned in 26.37 seconds
