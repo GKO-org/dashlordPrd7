@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Sep 14 13:01:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.stop-djihadisme.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 12:59:01 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.stop-djihadisme.gouv.fr
 Host: 195.64.164.87 (basicplus.mailclub.fr)	Status: Up
 Host: 195.64.164.87 (basicplus.mailclub.fr)	Ports: 25/closed/tcp//smtp///, 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/, 2000/open/tcp//cisco-sccp?///	Ignored State: filtered (995)
-# Nmap done at Sat Sep 14 13:04:36 2024 -- 1 IP address (1 host up) scanned in 172.75 seconds
+# Nmap done at Mon Oct 14 13:01:59 2024 -- 1 IP address (1 host up) scanned in 178.16 seconds

@@ -366,8 +366,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.stop-djihadisme.gouv.fr/195.64.164.87",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (53)"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 30 days (23)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -380,7 +380,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.stop-djihadisme.gouv.fr/195.64.164.87",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2024-11-06 23:59"
           }
 ,         {
@@ -612,7 +612,7 @@
               "ip"           : "www.stop-djihadisme.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726318872"
+              "finding"      : "1728910697"
           }
 ,         {
               "id"           : "HSTS",
@@ -1175,6 +1175,6 @@
               "ip"           : "www.stop-djihadisme.gouv.fr/195.64.164.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "92"
           }
 ]
