@@ -374,7 +374,7 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "258 >= 60 days"
+              "finding"      : "228 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,14 +570,14 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-174125 seconds from localtime"
+              "finding"      : "-1713954 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726143799"
+              "finding"      : "1727195980"
           }
 ,         {
               "id"           : "HSTS",
@@ -1147,6 +1147,6 @@
               "ip"           : "maritimelimits.gouv.fr/46.18.193.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "113"
+              "finding"      : "65"
           }
 ]
