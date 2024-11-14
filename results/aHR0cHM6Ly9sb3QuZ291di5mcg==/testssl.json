@@ -199,7 +199,7 @@
               "ip"           : "lot.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -339,7 +339,7 @@
               "ip"           : "lot.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "215 >= 60 days"
+              "finding"      : "184 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "lot.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728909234"
+              "finding"      : "1731587590"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "lot.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "101"
+              "finding"      : "57"
           }
 ]
