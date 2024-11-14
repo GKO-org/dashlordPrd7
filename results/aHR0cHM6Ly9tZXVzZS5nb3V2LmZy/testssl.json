@@ -262,7 +262,7 @@
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AE3290184ED04C6CC5183BC4C238EB14"
+              "finding"      : "DE37F1DC7FFC21B4FDE8A52EE5AF86A8"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F6E1E6B46D87ECC31D4256B7AD443F0808A71BFC"
+              "finding"      : "8CF230B30C741CA3EB1FEF38D51EC2DCB1574216"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A6D09829BEB40417AB6D6B08C3656F477FC204503E9580646043A59F0FB43F8A"
+              "finding"      : "0C40EFFD905486C564266770EAC153109C8AC2D0C44F05395BE46B597FD117DF"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "meuse.gouv.fr www.meuse.gouv.fr"
+              "finding"      : "www.meuse.gouv.fr meuse.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (23)"
+              "severity"     : "OK",
+              "finding"      : "334 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-21 23:00"
+              "finding"      : "2024-10-14 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-11-06 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-14 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,14 +500,14 @@
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728911510"
+              "finding"      : "1731590159"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1 seconds"
+              "finding"      : "0 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -557,7 +557,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cache: Hit"
+              "finding"      : "x-cache: Miss"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A6D09829BEB40417AB6D6B08C3656F477FC204503E9580646043A59F0FB43F8A"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0C40EFFD905486C564266770EAC153109C8AC2D0C44F05395BE46B597FD117DF"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "meuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "103"
+              "finding"      : "102"
           }
 ]
