@@ -339,7 +339,7 @@
               "ip"           : "modernisation.gouv.fr/45.223.60.83",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "363 >= 60 days"
+              "finding"      : "333 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1398,7 +1398,7 @@
               "ip"           : "modernisation.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "363 >= 60 days"
+              "finding"      : "333 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -2122,6 +2122,6 @@
               "ip"           : "modernisation.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "122"
+              "finding"      : "126"
           }
 ]
