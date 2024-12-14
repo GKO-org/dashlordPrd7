@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln lot-et-garonne.gouv.fr</pre>
-<p class="lead">Thu Nov 14 12:35:09 2024 – Thu Nov 14 12:35:59 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 12:32:42 2024 – Sat Dec 14 12:33:20 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -115,19 +115,16 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">Apache</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:35:28 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:32:57 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -138,10 +135,9 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
+  GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:35:27 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:32:56 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -150,24 +146,16 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:35:27 GMT
-    server: Apache
+  RPCCheck, X11Probe: 
+    HTTP/1.0 400 Bad request
     cache-control: no-cache
     content-type: text/html
-    age: 0
-    x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Thu, 14 Nov 2024 12:35:27 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:32:56 GMT
     content-length: 226
     content-type: text/html; charset=iso-8859-1
     connection: close
@@ -178,13 +166,6 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  X11Probe: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 <tr class="success">
@@ -192,19 +173,16 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">Apache</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:35:35 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:33:03 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -215,26 +193,24 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:35:33 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:33:02 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
   HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:35:34 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:33:03 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
@@ -248,8 +224,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Thu, 14 Nov 2024 12:35:41 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:33:09 GMT
     content-length: 226
     content-type: text/html; charset=iso-8859-1
     connection: close
@@ -284,7 +259,7 @@
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>Apache</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -294,7 +269,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>Apache</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
