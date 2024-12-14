@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Nov 14 12:40:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maisondelautisme.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 12:40:00 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maisondelautisme.gouv.fr
 Nmap scan report for maisondelautisme.gouv.fr (94.23.123.122)
 Host is up (0.16s latency).
 rDNS record for 94.23.123.122: ip122.ip-94-23-123.eu
@@ -14,7 +14,7 @@ PORT    STATE SERVICE        VERSION
 |     HTTP/1.0 502 Bad Gateway
 |     Cache-Control: private, max-age=0
 |     Content-Type: application/json
-|     Date: Thu, 14 Nov 2024 12:41:14 GMT
+|     Date: Sat, 14 Dec 2024 12:40:18 GMT
 |     Content-Length: 47
 |     {"status":502,"message":"No route known for "}
 |   GenericLines, Help, NessusTPv10, RTSPRequest, SSLSessionReq, Socks5: 
@@ -26,16 +26,16 @@ PORT    STATE SERVICE        VERSION
 |     HTTP/1.0 502 Bad Gateway
 |     Cache-Control: private, max-age=0
 |     Content-Type: application/json
-|     Date: Thu, 14 Nov 2024 12:41:13 GMT
+|     Date: Sat, 14 Dec 2024 12:40:17 GMT
 |     Content-Length: 47
 |_    {"status":502,"message":"No route known for "}
 443/tcp open  ssl/http-proxy (bad gateway)
 | fingerprint-strings: 
-|   FourOhFourRequest, HTTPOptions: 
+|   FourOhFourRequest: 
 |     HTTP/1.0 502 Bad Gateway
 |     Cache-Control: private, max-age=0
 |     Content-Type: application/json
-|     Date: Thu, 14 Nov 2024 12:41:20 GMT
+|     Date: Sat, 14 Dec 2024 12:40:25 GMT
 |     Content-Length: 47
 |     {"status":502,"message":"No route known for "}
 |   GenericLines, Help, NessusTPv10, RTSPRequest, SSLSessionReq, Socks5: 
@@ -43,33 +43,33 @@ PORT    STATE SERVICE        VERSION
 |     Content-Type: text/plain; charset=utf-8
 |     Connection: close
 |     Request
-|   GetRequest: 
+|   GetRequest, HTTPOptions: 
 |     HTTP/1.0 502 Bad Gateway
 |     Cache-Control: private, max-age=0
 |     Content-Type: application/json
-|     Date: Thu, 14 Nov 2024 12:41:19 GMT
+|     Date: Sat, 14 Dec 2024 12:40:24 GMT
 |     Content-Length: 47
 |_    {"status":502,"message":"No route known for "}
 3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port22-TCP:V=7.92%I=7%D=11/14%Time=6735EFE9%P=x86_64-alpine-linux-musl%
+SF-Port22-TCP:V=7.92%I=7%D=12/14%Time=675D7CB1%P=x86_64-alpine-linux-musl%
 SF:r(NULL,15,"SSH-2\.0-Platform\.sh\r\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735EFE9%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=12/14%Time=675D7CB1%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,C7,"HTTP/1\.0\x20502\x20Bad\x20Gateway\r\nCache-Control:\x
 SF:20private,\x20max-age=0\r\nContent-Type:\x20application/json\r\nDate:\x
-SF:20Thu,\x2014\x20Nov\x202024\x2012:41:13\x20GMT\r\nContent-Length:\x2047
+SF:20Sat,\x2014\x20Dec\x202024\x2012:40:17\x20GMT\r\nContent-Length:\x2047
 SF:\r\n\r\n{\"status\":502,\"message\":\"No\x20route\x20known\x20for\x20\"
 SF:}\n")%r(HTTPOptions,C7,"HTTP/1\.0\x20502\x20Bad\x20Gateway\r\nCache-Con
 SF:trol:\x20private,\x20max-age=0\r\nContent-Type:\x20application/json\r\n
-SF:Date:\x20Thu,\x2014\x20Nov\x202024\x2012:41:13\x20GMT\r\nContent-Length
+SF:Date:\x20Sat,\x2014\x20Dec\x202024\x2012:40:17\x20GMT\r\nContent-Length
 SF::\x2047\r\n\r\n{\"status\":502,\"message\":\"No\x20route\x20known\x20fo
 SF:r\x20\"}\n")%r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCo
 SF:ntent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n
 SF:\r\n400\x20Bad\x20Request")%r(FourOhFourRequest,C7,"HTTP/1\.0\x20502\x2
 SF:0Bad\x20Gateway\r\nCache-Control:\x20private,\x20max-age=0\r\nContent-T
-SF:ype:\x20application/json\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:41
-SF::14\x20GMT\r\nContent-Length:\x2047\r\n\r\n{\"status\":502,\"message\":
+SF:ype:\x20application/json\r\nDate:\x20Sat,\x2014\x20Dec\x202024\x2012:40
+SF::18\x20GMT\r\nContent-Length:\x2047\r\n\r\n{\"status\":502,\"message\":
 SF:\"No\x20route\x20known\x20for\x20\"}\n")%r(GenericLines,67,"HTTP/1\.1\x
 SF:20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-
 SF:8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Help,67,"HTT
@@ -83,18 +83,18 @@ SF:\n400\x20Bad\x20Request")%r(Socks5,67,"HTTP/1\.1\x20400\x20Bad\x20Reque
 SF:st\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20c
 SF:lose\r\n\r\n400\x20Bad\x20Request");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735EFEF%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D7CB8%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,C7,"HTTP/1\.0\x20502\x20Bad\x20Gateway\r\nCache-Con
 SF:trol:\x20private,\x20max-age=0\r\nContent-Type:\x20application/json\r\n
-SF:Date:\x20Thu,\x2014\x20Nov\x202024\x2012:41:19\x20GMT\r\nContent-Length
+SF:Date:\x20Sat,\x2014\x20Dec\x202024\x2012:40:24\x20GMT\r\nContent-Length
 SF::\x2047\r\n\r\n{\"status\":502,\"message\":\"No\x20route\x20known\x20fo
 SF:r\x20\"}\n")%r(HTTPOptions,C7,"HTTP/1\.0\x20502\x20Bad\x20Gateway\r\nCa
 SF:che-Control:\x20private,\x20max-age=0\r\nContent-Type:\x20application/j
-SF:son\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:41:20\x20GMT\r\nContent
+SF:son\r\nDate:\x20Sat,\x2014\x20Dec\x202024\x2012:40:24\x20GMT\r\nContent
 SF:-Length:\x2047\r\n\r\n{\"status\":502,\"message\":\"No\x20route\x20know
 SF:n\x20for\x20\"}\n")%r(FourOhFourRequest,C7,"HTTP/1\.0\x20502\x20Bad\x20
 SF:Gateway\r\nCache-Control:\x20private,\x20max-age=0\r\nContent-Type:\x20
-SF:application/json\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:41:20\x20G
+SF:application/json\r\nDate:\x20Sat,\x2014\x20Dec\x202024\x2012:40:25\x20G
 SF:MT\r\nContent-Length:\x2047\r\n\r\n{\"status\":502,\"message\":\"No\x20
 SF:route\x20known\x20for\x20\"}\n")%r(GenericLines,67,"HTTP/1\.1\x20400\x2
 SF:0Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nCon
@@ -112,4 +112,4 @@ SF:20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnectio
 SF:n:\x20close\r\n\r\n400\x20Bad\x20Request");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 12:41:29 2024 -- 1 IP address (1 host up) scanned in 33.01 seconds
+# Nmap done at Sat Dec 14 12:40:33 2024 -- 1 IP address (1 host up) scanned in 32.54 seconds
