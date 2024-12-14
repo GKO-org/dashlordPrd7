@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln manche.gouv.fr</pre>
-<p class="lead">Thu Nov 14 12:41:09 2024 – Thu Nov 14 12:42:00 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 12:39:24 2024 – Sat Dec 14 12:40:03 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -115,19 +115,16 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">Apache</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:41:29 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:39 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -138,24 +135,26 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:41:27 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:38 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
   HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:41:28 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:39 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
@@ -169,8 +168,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Thu, 14 Nov 2024 12:41:28 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:39 GMT
     content-length: 226
     content-type: text/html; charset=iso-8859-1
     connection: close
@@ -188,19 +186,16 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">Apache</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:41:35 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:46 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -211,8 +206,7 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:41:34 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:45 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -223,8 +217,7 @@
     &lt;/body&gt;&lt;/html&gt;
   HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:41:35 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:45 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -244,8 +237,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Thu, 14 Nov 2024 12:41:42 GMT
-    server: Apache
+    date: Sat, 14 Dec 2024 12:39:51 GMT
     content-length: 226
     content-type: text/html; charset=iso-8859-1
     connection: close
@@ -280,7 +272,7 @@
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>Apache</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -290,7 +282,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>Apache</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
