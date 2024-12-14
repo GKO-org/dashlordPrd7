@@ -269,7 +269,7 @@
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F92104A216212D1663079E380BEE8286"
+              "finding"      : "BD906085C8C699D12C1EF2F916CE49A1"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FFF493711895FCFA67D675AAFCC141023C2248B6"
+              "finding"      : "1417FD1D4BB7EF81F6A9B22F0AFFEB5074878D9B"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6665889BEE3970C423FCF0EB92EDAF8774612DFE19E20DC08788E2A1DE87FF4A"
+              "finding"      : "B275340901784ABF56CBE824C82C0F3D352C23DD5AB463A8451C778D925777D1"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "mesdroitssociaux.gouv.fr www.mesdroitssociaux.gouv.fr"
+              "finding"      : "www.mesdroitssociaux.gouv.fr mesdroitssociaux.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (22)"
+              "severity"     : "OK",
+              "finding"      : "357 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-24 23:00"
+              "finding"      : "2024-11-12 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-12-06 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-12-06 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,7 +381,7 @@
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -507,7 +507,7 @@
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731589808"
+              "finding"      : "1734181743"
           }
 ,         {
               "id"           : "HSTS",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6665889BEE3970C423FCF0EB92EDAF8774612DFE19E20DC08788E2A1DE87FF4A"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B275340901784ABF56CBE824C82C0F3D352C23DD5AB463A8451C778D925777D1"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "mesdroitssociaux.gouv.fr/81.80.42.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "83"
+              "finding"      : "56"
           }
 ]
