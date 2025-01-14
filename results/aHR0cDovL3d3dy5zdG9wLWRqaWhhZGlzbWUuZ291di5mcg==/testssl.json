@@ -1,23 +1,23 @@
 [
          {
               "id"           : "scanProblem",
-              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.121",
-              "port"         : "443",
-              "severity"     : "FATAL",
-              "finding"      : "Couldn't connect to 5.22.145.121:443, proceeding with next IP (if any)"
-          }
-,         {
-              "id"           : "scanProblem",
               "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.16",
               "port"         : "443",
               "severity"     : "FATAL",
               "finding"      : "Couldn't connect to 5.22.145.16:443, proceeding with next IP (if any)"
           }
 ,         {
+              "id"           : "scanProblem",
+              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.121",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "Couldn't connect to 5.22.145.121:443, proceeding with next IP (if any)"
+          }
+,         {
               "id"           : "scanTime",
-              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.16",
+              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.121",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "272"
+              "finding"      : "274"
           }
 ]
