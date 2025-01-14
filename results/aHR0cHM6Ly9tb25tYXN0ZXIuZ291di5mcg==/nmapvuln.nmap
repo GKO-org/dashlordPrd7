@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sat Dec 14 13:18:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
+# Nmap 7.92 scan initiated Tue Jan 14 13:12:32 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
 Nmap scan report for monmaster.gouv.fr (185.75.143.22)
-Host is up (0.16s latency).
+Host is up (0.085s latency).
 rDNS record for 185.75.143.22: MEN-MUTU-PROXY01.dedie.ate.info
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE VERSION
@@ -11,7 +11,7 @@ PORT    STATE SERVICE VERSION
 |   OpenVPN: 
 |     HTTP/1.1 400 Bad Request
 |     Server: nginx
-|     Date: Sat, 14 Dec 2024 13:18:38 GMT
+|     Date: Tue, 14 Jan 2025 13:12:47 GMT
 |     Content-Type: text/html
 |     Content-Length: 150
 |     Connection: close
@@ -23,13 +23,13 @@ PORT    STATE SERVICE VERSION
 |     </body>
 |_    </html>
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%I=7%D=12/14%Time=675D85AE%P=x86_64-alpine-linux-musl
-SF:%r(OpenVPN,127,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20nginx\
-SF:r\nDate:\x20Sat,\x2014\x20Dec\x202024\x2013:18:38\x20GMT\r\nContent-Typ
-SF:e:\x20text/html\r\nContent-Length:\x20150\r\nConnection:\x20close\r\n\r
-SF:\n<html>\r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>
-SF:\r\n<center><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>ngin
-SF:x</center>\r\n</body>\r\n</html>\r\n");
+SF-Port443-TCP:V=7.92%I=7%D=1/14%Time=678662CF%P=x86_64-alpine-linux-musl%
+SF:r(OpenVPN,127,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20nginx\r
+SF:\nDate:\x20Tue,\x2014\x20Jan\x202025\x2013:12:47\x20GMT\r\nContent-Type
+SF::\x20text/html\r\nContent-Length:\x20150\r\nConnection:\x20close\r\n\r\
+SF:n<html>\r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\
+SF:r\n<center><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>nginx
+SF:</center>\r\n</body>\r\n</html>\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Dec 14 13:18:50 2024 -- 1 IP address (1 host up) scanned in 30.98 seconds
+# Nmap done at Tue Jan 14 13:12:53 2025 -- 1 IP address (1 host up) scanned in 21.44 seconds
