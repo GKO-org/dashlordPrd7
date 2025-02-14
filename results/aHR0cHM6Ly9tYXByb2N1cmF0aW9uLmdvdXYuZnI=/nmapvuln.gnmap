@@ -1,1 +1,1 @@
-# Nmap 7.92 scan initiated Tue Jan 14 12:42:44 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maprocuration.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 14 12:46:09 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln maprocuration.gouv.fr
