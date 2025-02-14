@@ -1,35 +1,33 @@
-# Nmap 7.92 scan initiated Tue Jan 14 13:12:32 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
-Nmap scan report for monmaster.gouv.fr (185.75.143.22)
-Host is up (0.085s latency).
-rDNS record for 185.75.143.22: MEN-MUTU-PROXY01.dedie.ate.info
-Not shown: 998 filtered tcp ports (no-response)
-PORT    STATE SERVICE VERSION
-80/tcp  open  http    nginx
-443/tcp open  https   nginx
-|_http-server-header: nginx
+# Nmap 7.92 scan initiated Fri Feb 14 13:25:08 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln monmaster.gouv.fr
+Nmap scan report for monmaster.gouv.fr (194.167.72.25)
+Host is up (0.15s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE  VERSION
+80/tcp  open   http
 | fingerprint-strings: 
-|   OpenVPN: 
-|     HTTP/1.1 400 Bad Request
-|     Server: nginx
-|     Date: Tue, 14 Jan 2025 13:12:47 GMT
-|     Content-Type: text/html
-|     Content-Length: 150
+|   FourOhFourRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
 |     Connection: close
-|     <html>
-|     <head><title>400 Bad Request</title></head>
-|     <body>
-|     <center><h1>400 Bad Request</h1></center>
-|     <hr><center>nginx</center>
-|     </body>
-|_    </html>
+|     Content-Length: 0
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https:///
+|     Connection: close
+|_    Content-Length: 0
+113/tcp closed ident
+443/tcp open   ssl/http nginx
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%I=7%D=1/14%Time=678662CF%P=x86_64-alpine-linux-musl%
-SF:r(OpenVPN,127,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20nginx\r
-SF:\nDate:\x20Tue,\x2014\x20Jan\x202025\x2013:12:47\x20GMT\r\nContent-Type
-SF::\x20text/html\r\nContent-Length:\x20150\r\nConnection:\x20close\r\n\r\
-SF:n<html>\r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\
-SF:r\n<center><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>nginx
-SF:</center>\r\n</body>\r\n</html>\r\n");
+SF-Port80-TCP:V=7.92%I=7%D=2/14%Time=67AF4445%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x
+SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r
+SF:(HTTPOptions,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
+SF:x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%
+SF:r(RTSPRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:
+SF:\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")
+SF:%r(FourOhFourRequest,80,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLo
+SF:cation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection:
+SF:\x20close\r\nContent-Length:\x200\r\n\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Jan 14 13:12:53 2025 -- 1 IP address (1 host up) scanned in 21.44 seconds
+# Nmap done at Fri Feb 14 13:26:29 2025 -- 1 IP address (1 host up) scanned in 81.42 seconds
