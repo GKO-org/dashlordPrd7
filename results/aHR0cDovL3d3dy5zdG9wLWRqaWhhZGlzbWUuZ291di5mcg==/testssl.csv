@@ -1,3 +1,2 @@
 "id","fqdn/ip","port","severity","finding","cve","cwe"
-"scanProblem","www.stop-djihadisme.gouv.fr/5.22.145.16","443","FATAL","Couldn't connect to 5.22.145.16:443, proceeding with next IP (if any)","",""
-"scanProblem","www.stop-djihadisme.gouv.fr/5.22.145.121","443","FATAL","Couldn't connect to 5.22.145.121:443, proceeding with next IP (if any)","",""
+"optimal_proto","www.stop-djihadisme.gouv.fr/5.22.145.230","443","WARN","5.22.145.230:443 doesn't seem to be a TLS/SSL enabled server.","",""

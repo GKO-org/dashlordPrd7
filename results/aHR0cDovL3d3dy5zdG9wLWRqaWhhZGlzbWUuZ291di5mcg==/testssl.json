@@ -1,23 +1,8 @@
 [
          {
-              "id"           : "scanProblem",
-              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.16",
+              "id"           : "optimal_proto",
+              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.230",
               "port"         : "443",
-              "severity"     : "FATAL",
-              "finding"      : "Couldn't connect to 5.22.145.16:443, proceeding with next IP (if any)"
+              "severity"     : "WARN",
+              "finding"      : "5.22.145.230:443 doesn't seem to be a TLS/SSL enabled server."
           }
-,         {
-              "id"           : "scanProblem",
-              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.121",
-              "port"         : "443",
-              "severity"     : "FATAL",
-              "finding"      : "Couldn't connect to 5.22.145.121:443, proceeding with next IP (if any)"
-          }
-,         {
-              "id"           : "scanTime",
-              "ip"           : "www.stop-djihadisme.gouv.fr/5.22.145.121",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "274"
-          }
-]

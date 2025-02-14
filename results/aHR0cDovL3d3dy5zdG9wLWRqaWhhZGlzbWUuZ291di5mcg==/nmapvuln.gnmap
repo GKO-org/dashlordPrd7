@@ -1,2 +1,4 @@
-# Nmap 7.92 scan initiated Tue Jan 14 12:59:04 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.stop-djihadisme.gouv.fr
-# Nmap done at Tue Jan 14 12:59:07 2025 -- 1 IP address (0 hosts up) scanned in 3.31 seconds
+# Nmap 7.92 scan initiated Fri Feb 14 13:13:28 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.stop-djihadisme.gouv.fr
+Host: 5.22.145.247 ()	Status: Up
+Host: 5.22.145.247 ()	Ports: 80/open/tcp//http//Apache/, 443/open/tcp//ssl|https?///, 9080/open/tcp//ssl|glrpc?///	Ignored State: filtered (997)
+# Nmap done at Fri Feb 14 13:16:58 2025 -- 1 IP address (1 host up) scanned in 209.97 seconds
